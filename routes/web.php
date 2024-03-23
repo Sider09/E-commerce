@@ -1,10 +1,20 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\UsuariosController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PagosController;
+use App\Http\Controllers\PedidosController;
 
-Route::get('/', function () {
-    return view('welcome');
+
+Route::get('/Usuarios',UsuariosController::class);
+
+Route::get('Pedidos',PedidosController::class);
+
+Route::get('/Pagos',PagosController::class);
+
+Route::get('/cosas', function () {
+    return "cosasq ue pasaajsf";
 });
 
 Route::get('/dashboard', function () {
