@@ -1,0 +1,7 @@
+Tabla direccion de envio
+Tablas repartidas.-
+Direccion de envio: Naomi
+Productos: Fabricio
+Transacciones:
+Factura:
+Usuarios:
