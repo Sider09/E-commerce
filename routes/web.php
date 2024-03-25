@@ -6,10 +6,10 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagosController;
 use App\Http\Controllers\PedidosController;
 
+Route::get('usuarios',[UsuariosController::class,'index']);
+//Route::get('/Usuarios',UsuariosController::class);
 
-Route::get('/Usuarios',UsuariosController::class);
-
-Route::get('Pedidos',PedidosController::class);
+Route::get('/Pedidos',PedidosController::class);
 
 Route::get('/Pagos',PagosController::class);
 

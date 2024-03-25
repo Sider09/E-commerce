@@ -6,7 +6,8 @@ use Illuminate\Http\Request;
 
 class UsuariosController extends Controller
 {
-    public function __invoke(){
-        return "usuarivianfnsdfos";
+    
+    public function index(){
+        return view('Usuarios.usuario');
     }
 }
